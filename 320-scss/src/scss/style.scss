@@ -1,0 +1,45 @@
+$hovercolor: blue;
+$hoverbackgroundcolor :aqua;
+
+
+.four:hover {
+    color: $hovercolor;
+    border-color: $hovercolor;
+
+}
+.hiddenbar:hover {
+    background-color: $hoverbackgroundcolor;
+}
+
+.nav-bar:hover {
+    background-color: $hoverbackgroundcolor;
+    border-left: 3px solid white;
+}
+
+#sidebarmobile {
+    display: block;
+}
+
+.col-sm-2 {
+    display: none;
+}
+
+.search-button:hover {
+    color: $hovercolor;
+}
+.bell-button:hover {
+    color: $hovercolor;
+}
+
+@media (min-width: 768px) { 
+.col-sm-2 {
+    display: flex;
+}
+
+}
+
+@media (min-width: 576px) {
+#sidebarmobile {
+        display: none;
+}
+ }
