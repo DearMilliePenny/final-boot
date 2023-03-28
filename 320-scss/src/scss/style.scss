@@ -1,6 +1,7 @@
 //Mobile First
 $hovercolor: blue;
 $hoverbackgroundcolor :aqua;
+$bordercolor: white;
 
 
 .four:hover {
@@ -8,13 +9,14 @@ $hoverbackgroundcolor :aqua;
     border-color: $hovercolor;
 
 }
+
 .hiddenbar:hover {
     background-color: $hoverbackgroundcolor;
 }
 
 .nav-bar:hover {
     background-color: $hoverbackgroundcolor;
-    border-left: 3px solid white;
+    border-left: 3px solid $bordercolor;
 }
 
 #sidebarmobile {
