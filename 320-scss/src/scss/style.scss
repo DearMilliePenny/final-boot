@@ -1,3 +1,4 @@
+//Mobile First
 $hovercolor: blue;
 $hoverbackgroundcolor :aqua;
 
@@ -7,8 +8,6 @@ $hoverbackgroundcolor :aqua;
     border-color: $hovercolor;
 
 }
-
-  
 .hiddenbar:hover {
     background-color: $hoverbackgroundcolor;
 }
@@ -33,15 +32,19 @@ $hoverbackgroundcolor :aqua;
     color: $hovercolor;
 }
 
+//Medium Breakpoint for Sidebar
 @media (min-width: 768px) { 
 .col-sm-2 {
     display: flex;
 }
 
 }
+//Desktop Breakpoint
 
+//Hide Hamburger
 @media (min-width: 576px) {
 #sidebarmobile {
         display: none;
 }
+
  }

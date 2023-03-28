@@ -1,5 +1,7 @@
-//Line Graph
+//Do not display chart legend
+Chart.defaults.global.legend.display = false;
 
+//Line Graph
 var ctxL = document.getElementById("lineChart").getContext('2d');
 var myLineChart = new Chart(ctxL, {
   type: 'line',
