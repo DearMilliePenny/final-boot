@@ -1,0 +1,21 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won't be available)
+//-------overview----------------------------//
+$font-family-base: "muli", sans-serif;
+$light: #F7F8FC;
+
+p {
+    font-size: 14px;
+    font-family: 'Muli';
+}
+
+
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
