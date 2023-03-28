@@ -1,0 +1,42 @@
+.four:hover {
+  color: blue;
+  border-color: blue;
+}
+
+.hiddenbar:hover {
+  background-color: aqua;
+}
+
+.nav-bar:hover {
+  background-color: aqua;
+  border-left: 3px solid white;
+}
+
+#sidebarmobile {
+  display: block;
+}
+
+.col-sm-2 {
+  display: none;
+}
+
+.search-button:hover {
+  color: blue;
+}
+
+.bell-button:hover {
+  color: blue;
+}
+
+@media (min-width: 768px) {
+  .col-sm-2 {
+    display: flex;
+  }
+}
+@media (min-width: 576px) {
+  #sidebarmobile {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
